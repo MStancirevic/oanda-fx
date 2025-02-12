@@ -135,7 +135,7 @@ async def main(source, base, quote, fx_date):
 
 
 DEFAULT_PROXIES = os.getenv("PROXY")
-SOURCE_FILE = "/Users/mihaelstancirevic/Desktop/missing_fx_rates.xlsx"
+SOURCE_FILE = None
 BASE_CURRENCIES = ["USD", "EUR", "HRK", "GBP"]
 QUOTE_CURRENCIES = ["JPY", "AUD", "HKD", "CAD"]
 DATES = ["2024-12-13", "2024-12-14", "2025-01-09", "2025-01-11"]
